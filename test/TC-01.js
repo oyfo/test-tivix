@@ -22,8 +22,4 @@ describe('TC-01 Tivix smoke test', () => {
       });
     });
   });
-
-  // after((done) => {
-  //    done();
-  // });
 });
