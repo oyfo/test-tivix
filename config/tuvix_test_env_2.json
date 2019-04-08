@@ -1,0 +1,6 @@
+{
+    "url": {
+        "base": "https://www.tivix.com/",
+        "extensions": ["services", "case-studies", "about", "blog", "resources", "careers", "contact-us"]
+    }
+}

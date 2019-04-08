@@ -1,0 +1,26 @@
+{
+  "name": "test-tivix",
+  "description": "Single automated TC",
+  "author": "Mikołaj Kacprzak",
+  "license": "UNLICENSED",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --timeout 20000 --slow 2000 --recursive ./test --exit",
+    "lint": "./node_modules/.bin/eslint --ext .js --ext .md test helpers",
+    "lintfix": "./node_modules/.bin/eslint --fix --ext .js --ext .md test helpers"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:oyfo/test-tivix.git"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  }
+}
