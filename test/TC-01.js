@@ -12,7 +12,8 @@ config = JSON.parse(fs.readFileSync(`${__dirname}/../config/${config}.json`));
 
 describe('TC-01 Tivix smoke test', () => {
   const urlHelper = new URLHelper(config);
-  const urls = urlHelper.buildFullUrls();
+  const urls = urlHelper.buildFullUrls().concat(urlHelper.buildSubServiceUrls());
+
   urls.forEach((url) => {
     it(`Curling ${url} should return 200`, (done) => {
       request(url, (err, resp) => {

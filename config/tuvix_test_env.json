@@ -1,6 +1,8 @@
 {
     "url": {
         "base": "https://www.tivix.com/",
-        "extensions": ["services", "case-studies", "about", "blog", "resources", "careers", "contact-us"]
+        "extensions": ["services", "case-studies", "about", "blog", "resources", "careers", "contact-us"],
+        "subservices": ["custom-web-app-development", "software-product-development", "custom-mobile-app-development", "api-development-services",
+            "innovation-workshops", "digital-transformation-services", "ui-ux-design-services", "design-thinking-workshops"]
     }
 }
